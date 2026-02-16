@@ -6,13 +6,13 @@ Built with LangChain + FAISS + Sentence Transformers + Streamlit.
 
 #Features
 
-Ask questions from your PDFs  
-Semantic search using embeddings  
-Fast FAISS vector database  
-Clean Streamlit UI  
-Shows source pages  
-Safe “I don’t know” responses  
-Fully local (no paid API required)
+•Ask questions from your PDFs  
+•Smantic search using embeddings  
+•Fast FAISS vector database  
+•Clean Streamlit UI  
+•Shows source pages  
+•Safe “I don’t know” responses  
+•Fully local (no paid API required)
 
 
 #How It Works (Architecture)
@@ -22,4 +22,5 @@ Fully local (no paid API required)
 3. FAISS stores embeddings for fast search  
 4. User question → embedding search  
 5. Top relevant chunks are shown as answers
+
 
